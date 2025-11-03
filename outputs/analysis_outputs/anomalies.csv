@@ -1,1 +1,1 @@
-<FULL anomalies list>
+CSV listing all rows flagged as data anomalies with columns: exam_center, province_exam, language_file, registered, present, absent, avg_score, passed, issue_type, notes.

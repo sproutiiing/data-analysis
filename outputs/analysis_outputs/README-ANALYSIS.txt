@@ -1,10 +1,1 @@
-Thresholds used:
-- Absent Rate: >= 0.10
-- Overloaded Abs: registered > 1000
-- Overloaded IQR: Q3 + 1.5 * IQR
-
-Priority Rules: <insert rules here>
-
-Source Commit: ef4a6c03279dd38665c01ac252d04767959f4298
-
-Next Steps: <brief instructions here>
+Thresholds used:\n- Absent Rate: >= 0.10\n- Overloaded Abs: registered > 1000\n- Overloaded IQR: Q3 + 1.5 * IQR\n\nPriority Rules:\n- Urgent: flag_data_anomaly == True OR absent_rate >= 0.10 (and registered >=5)\n- High: registered > 1000 OR flag_overloaded_iqr == True\n- Monitor: absent_rate between 0.05 and 0.10 or other minor warnings\n\nSource Commit: ef4a6c03279dd38665c01ac252d04767959f4298\n\nNotes: Files replaced to correct prior placeholder upload. Full CSV and PNG contents uploaded.
