@@ -1,1 +1,1 @@
-full CSV text containing all exam_center_summary records with added columns: absent_rate (recomputed where needed), flag_high_absent (absent_rate>=0.10), flag_overloaded_abs (registered>1000), flag_overloaded_iqr (registered > Q3 + 1.5*IQR), flag_data_anomaly (present==0 & registered>0 OR registered != present+absent OR missing avg_score), priority (Urgent/High/Monitor), notes.
+[Content of high_risk_centers.csv]
